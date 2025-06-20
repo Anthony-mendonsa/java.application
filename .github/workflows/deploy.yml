@@ -59,4 +59,4 @@ jobs:
             docker pull anthony8800/my-java-app
             docker stop my-java-container || true
             docker rm my-java-container || true
-            docker run -d -p 8080:8080 --name my-java-container anthony8800/my-java-app
+            docker run -d -p 5007:8080 --name my-java-container anthony8800/my-java-app
