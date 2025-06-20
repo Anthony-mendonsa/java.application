@@ -54,33 +54,7 @@ jobs:
         with:
           host: 34.207.130.249
           username: ec2-user
-          key: -----BEGIN RSA PRIVATE KEY-----
-MIIEowIBAAKCAQEAyGOPKHMDd/sMUDyvpNsb8UMPsSIGgRR7dENLbMqKkEr3h+4Y
-+HkPv2TVZL4PU6SnF4BxRYXSJuU9J84UCPJ/a3gLDR7Te3XjRxrSEjUVUMl2xbsY
-aeVvOR76QTPCaEJRAm8ursqjaI5nyjULhTQ6peLQjK+ianbGINIw7oYIhe2C8dqG
-8EMLMBxzF82OWZtM8wKVKdJKgiksJeVfzr3C4W9YhtqpiveudHy5fgvnq6JDLh6w
-bi3s+kyST+WSKEzhSGMnsmybYi+nheoAKtILvOoJ6A7e1MO5ByU1zhFbsnXpE0BI
-sqVSBs/DkXztmB02sz9qzJt4uhXjXlnwsW2wswIDAQABAoIBADbCZhuCmn8N/oZq
-nwDo01Dxp3cbOjXJ2BakURcwnf7iTZQ6r14vDuuZbWrzORL9Wp/kfI+oCw6P9E9N
-VFJBmipPCo4ST25cf7gtjxxknyeNdkSAZSKDDQrJ+U8aCtUc0jBdG5+uRktLJvet
-2TEUXbZ5Lc5ULIj1Xh0X80ErJWcbTa2kjN44zGdPRm5pqzSi16jRdQWKjI57pLbE
-SuZb9nlmMncHkENclwBu/Iw1+F1drLxzNmBAMik0sF25wO5XvDTxmmzv9d2L09sP
-Kb7W+gfAecgSrNvoqlR1sejTMeAZGDbbb1d2gz4fZwELkG7QUo8DhjWSZ6euqaT7
-SnTwSpkCgYEA50Ed3Yu9CtNBz6+4/BdRw4Ac/QD9lNuBCGQshZDMAPApuHjuY5GZ
-xUhOww2igcHRHO1dIffAxGXEYCkCiN3PzlKVDLI0x+TQnJG2DobydF26+1HSRvY4
-0tRYn7D8rMYjxX5ARurnamEWuxEgDGQ1VJzWMRoR9FVxvkCzLWcLi8cCgYEA3dTt
-ZgpQ0SV/AAK+y6lHQoY/+xAmg/opjyU2LVOWk08FGhGjnDplAo8rRoroAq0blFGY
-gVVpiT+CstqCe1+4fQelt+AJIPy5qgKj27ZcMr4T48utYLLSkYB19N1Eyd0ynXxy
-dcgO8c05OXB5OAWm/sHqRdiqhReh2mr8S3iLO7UCgYBgns5RoG7ttPKMSckqWrvo
-yQBTnTRWG5g/30rSy3rQ8Ycc8jn4E/+BdAKkcG/zcv1h7rK43IEIDdUMsFXExZhr
-hgmMcnCnDC01HZRJYYyvnfHfy4Hl8D4xqFMW9aW8slSD0Yodl0v1IHeU1UTkqIG3
-xoefoFrcEU8ixHmYgLNMRQKBgGkMWzuWKP1R71lW83lIeWlkX8oJtOOMxL931LcU
-PVsW8YiNz9e8w3a5y7mFMCeMSGItXbXpd6e5/q+p0F6STrBOvchcfJY1d8qto2D5
-c6HH521ZV4pSRGsI1VMWsWuSp1RyyVVDXuhc0fuEarL/4jwEImffGakbLtdbEIzA
-0dZ9AoGBAOHmjdWRrVSib8e0nszKWUaYRR7nrgL3lUAYAOMsPJUoFS4423SswjKe
-wFkEMBgwyB70QXIPuXbyggT8yKfN7H0XW92Y90tUyAeKSHRQ+x8suRSYnS2U2HfW
-hJIC8F0tE9UmmDi4OHtpWhEVfgLbxCmnrL2H1p6oHXd7E7pv0tyb
------END RSA PRIVATE KEY-----
+          key: 
           script: |
             docker pull anthony8800/my-java-app
             docker stop my-java-container || true
