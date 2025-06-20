@@ -54,7 +54,7 @@ jobs:
         with:
           host: 34.207.130.249
           username: ec2-user
-          key: 
+          key: EC2_SSH_PRIVATE_KEY
           script: |
             docker pull anthony8800/my-java-app
             docker stop my-java-container || true
