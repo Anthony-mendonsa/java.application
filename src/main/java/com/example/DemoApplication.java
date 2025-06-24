@@ -15,6 +15,6 @@ public class DemoApplication {
 
     @GetMapping("/")
     public String hello() {
-        return "Hello, Anthony! This is a Dockerized Java App!";
+        return "Hello everyone this project is done by Yogesh and anthony !";
     }
 }
