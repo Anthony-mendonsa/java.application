@@ -33,7 +33,7 @@ jobs:
         uses: docker/login-action@v3
         with:
           username: "anthony8800"
-          password: "${{ secrets.ANTHONY_PASSWORD }}"  # 🔔 RECOMMENDED: Use GitHub Secret, don't hardcode password
+          password: "ANTHONY_PASSWORD"  # 🔔 RECOMMENDED: Use GitHub Secret, don't hardcode password
 
       - name: Build Docker Image
         run: docker build -t anthony8800/my-java-app .
