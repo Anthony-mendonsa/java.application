@@ -63,4 +63,4 @@ jobs:
             sudo docker pull anthony8800/my-python-app
             sudo docker stop my-java-container || true
             sudo docker rm my-java-container || true
-            sudo docker run -d -p 5007:8080 --name my-java-container anthony8800/my-python-app
+            sudo docker run -d -p 5008:5000 --name my-java-container anthony8800/my-python-app
