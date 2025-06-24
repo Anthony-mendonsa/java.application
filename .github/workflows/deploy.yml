@@ -52,8 +52,8 @@ jobs:
       - name: Deploy to EC2 Instance
         uses: appleboy/ssh-action@v1.0.3
         with:
-          host: 34.207.130.249
-          username: root
+          host: 174.129.129.249
+          username: ec2-user
           key: ${{ secrets.EC2_SSH_PRIVATE_KEY }}
           script: |
             docker pull anthony8800/my-java-app
